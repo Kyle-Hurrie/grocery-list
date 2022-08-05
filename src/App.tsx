@@ -1,6 +1,6 @@
 // React
 import React from 'react';
-
+import {HashRouter} from 'react-router-dom';
 // Styles
 import './App.scss';
 
@@ -9,12 +9,14 @@ import GroceryList from './components/groceryList/GroceryList';
 
 const App = () => {
  return (
-   <div className={'App'}>
-     <div className={'background'}>
-       <GroceryList/>
+   <HashRouter basename={'/'}>
+     <div className={'App'}>
+       <div className={'background'}>
+         <GroceryList/>
+       </div>
      </div>
+   </HashRouter>
 
-   </div>
  )
 }
 
