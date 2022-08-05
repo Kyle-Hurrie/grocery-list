@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.414b4322.css",
+    "main.js": "/static/js/main.44ceb185.js",
+    "static/media/wood.jpg": "/static/media/wood.f26568ea3dca6e3a7166.jpg",
+    "static/media/checkboxUnchecked.svg": "/static/media/checkboxUnchecked.7c6f61cc652bdb023d897570fd42a65b.svg",
+    "static/media/checkboxChecked.svg": "/static/media/checkboxChecked.fff87708e0e06b2b6491abb691546f36.svg",
+    "index.html": "/index.html",
+    "static/media/delete.svg": "/static/media/delete.834e49e73fa7bdc117d1789760d750c2.svg",
+    "main.414b4322.css.map": "/static/css/main.414b4322.css.map",
+    "main.44ceb185.js.map": "/static/js/main.44ceb185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.414b4322.css",
+    "static/js/main.44ceb185.js"
+  ]
+}
