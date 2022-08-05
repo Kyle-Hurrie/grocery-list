@@ -1,0 +1,92 @@
+.grocery-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 2em 0;
+  background-color: #52779e;
+  border-radius: 2em;
+  padding: 2em;
+  box-shadow: 0 0 1em 1em rgba(0, 0, 0, 42%);
+  border: 2px solid #688fc5;
+}
+
+.grocery-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: brightness(69%) blur(1px);
+  height: 100%;
+
+  .app-title {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.background {
+  background-image: url("../../../src/assets/images/wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 0;
+  max-height: 100vh;
+  background-attachment: fixed;
+}
+
+.item-creation {
+  padding: 0.5em 0.25em 0.5em 0.25em;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #e3e3e3;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  font-family: helvetica sans-serif;
+}
+
+.item-creation-input {
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+.item-creation-button {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+
+  .item-creation-button:hover {
+    background-color: #f7fafa;
+  }
+
+  .item-creation-button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+}
+
+
+
