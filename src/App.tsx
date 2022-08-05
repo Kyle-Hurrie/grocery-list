@@ -1,6 +1,6 @@
 // React
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+
 // Styles
 import './App.scss';
 
@@ -8,16 +8,13 @@ import './App.scss';
 import GroceryList from './components/groceryList/GroceryList';
 
 const App = () => {
- return (
-   <BrowserRouter basename={'/'}>
-     <div className={'App'}>
-       <div className={'background'}>
-         <GroceryList/>
-       </div>
-     </div>
-   </BrowserRouter>
-
- )
+  return (
+    <div className={'App'}>
+      <div className={'background'}>
+        <GroceryList/>
+      </div>
+    </div>
+  )
 }
 
 export default App;
