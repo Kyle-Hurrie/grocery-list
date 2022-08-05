@@ -1,6 +1,6 @@
 // React
 import React from 'react';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 // Styles
 import './App.scss';
 
@@ -9,13 +9,13 @@ import GroceryList from './components/groceryList/GroceryList';
 
 const App = () => {
  return (
-   <HashRouter basename={'/'}>
+   <BrowserRouter basename={'/'}>
      <div className={'App'}>
        <div className={'background'}>
          <GroceryList/>
        </div>
      </div>
-   </HashRouter>
+   </BrowserRouter>
 
  )
 }
