@@ -25,7 +25,8 @@ const GroceryList = () => {
 
   // Effects
   useEffect(() => {
-    const tempItemsList = JSON.parse(localStorage.getItem('items') ?? '')
+    const tempItems = localStorage.getItem('items')
+    const tempItemsList = JSON.parse( tempItems && items.length > 0 ? tempItems : '[]')
     setItems(tempItemsList ?? [])
   }, [])
 
