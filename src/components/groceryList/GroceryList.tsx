@@ -67,7 +67,7 @@ const GroceryList = () => {
           {items.length === 0
             ?
             /*NO DATA*/
-            <h1>Nothing to see, list be empty</h1>
+            <h1>Nothing to see, list is empty</h1>
             :
             /*LIST*/
             <List
@@ -84,7 +84,7 @@ const GroceryList = () => {
           <input
             className={'item-creation-input'}
             type={'text'}
-            placeholder={'item name goes here'}
+            placeholder={'Please type item name here'}
             onChange={(event) => setItem({...item, itemName: event.target.value})}
             value={item.itemName}
           />
