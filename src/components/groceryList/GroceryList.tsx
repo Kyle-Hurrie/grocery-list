@@ -95,7 +95,7 @@ const GroceryList = () => {
             type={'button'}
             onClick={() => handleAdd()}
           >
-            Submit
+            Add Item
           </button>
         </div>
       </div>
