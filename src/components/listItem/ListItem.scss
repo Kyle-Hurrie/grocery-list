@@ -6,12 +6,11 @@
   transition: ease-in-out 150ms;
   border-bottom: gray solid 1px;
   padding: 0 1em 0 1em;
-  margin: 0.5em;
   font-family: helvetica sans-serif;
   align-items: center;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: ease-in-out 200ms;
   }
 

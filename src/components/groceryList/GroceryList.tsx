@@ -14,7 +14,7 @@ const GroceryList = () => {
   // Constants
   let newId = -1;
   const defaultItem = {
-    id: newId--,
+    id: newId - 1,
     itemName: '',
     checked: false,
   }
@@ -26,8 +26,8 @@ const GroceryList = () => {
   // Effects
   useEffect(() => {
     const tempItems = localStorage.getItem('items')
-    const tempItemsList = JSON.parse( tempItems && items.length > 0 ? tempItems : '[]')
-    setItems(tempItemsList ?? [])
+    const tempItemsList = JSON.parse( tempItems && tempItems.length > 0 ? tempItems : '[]')
+    setItems(tempItemsList)
   }, [])
 
   // Handlers
